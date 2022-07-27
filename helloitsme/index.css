@@ -98,8 +98,8 @@ img {
 	color: #f9a064
 }
 #footer>ul>li>b {color: #E76F51}
-#footer {margin: 0 10% 0 10%}
-#nd {font-family: "Elice Digital Baeum" ;}
+#footer {margin: 0 10% 12px 10%}
+#nd {font-family: "Elice Digital Baeum" ; padding: 4px 4px 4px 4px; }
 
 @media (min-width:300px) and (max-width:800px){
 	.item:nth-child(1) { 	
@@ -132,6 +132,7 @@ img {
 		grid-column-end: 2;
 		grid-row-start: 6;
 		grid-row-end: 7; }
+	.container { padding: 0 3% 10% 10%}
 	header {height: 8%;}
 	nav {height: 3%; margin-left:20%; margin-right:20%}
 	nav>ul {margin: auto auto auto auto;}
@@ -139,8 +140,10 @@ img {
 	nav>ul>li>a {font-size: smaller}
 	.name1 {padding: 15% 0 10% 0}
 	.name2 {padding: 10% 0 10% 0}
-	#footer {margin: 0 5% 0 5%}
+	#footer {margin: 0 5% 12px 10%}
 	#footer>ul>li {margin: 0 2% 0 2%}
+	#footer>ul>li {display: block;}
+	#nd {width:40%; float: left; margin: 12px 0 12px 27%; }
 }
 
 li:hover {
