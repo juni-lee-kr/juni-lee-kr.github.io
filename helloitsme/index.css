@@ -134,9 +134,9 @@ img {
 		grid-row-end: 7; }
 	.container { padding: 0 3% 10% 10%}
 	header {height: 8%;}
-	nav {height: 3%; margin-left:20%; margin-right:20%}
-	nav>ul {margin: auto auto auto auto;}
-	nav>ul>li {margin: 0 5px 0 5px}
+	nav {height: 3%; width: 100%;}
+	nav>ul {margin: 4px auto auto 10%; width: 80%; float: left;}
+	nav>ul>li {margin: 0 8% 0 5%; width:20%; text-align: center;}
 	nav>ul>li>a {font-size: smaller}
 	.name1 {padding: 15% 0 10% 0}
 	.name2 {padding: 10% 0 10% 0}
